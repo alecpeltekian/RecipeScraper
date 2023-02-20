@@ -18,10 +18,14 @@ class RecipeFetcher:
         results = {}
 
         page_html = requests.get(recipe_url)
+        
         page_graph = BeautifulSoup(page_html.content, features="lxml")
+        
         results['ingredients'] = [ingredient.text for ingredient in \
-                                  page_graph.find_all('span', {'itemprop': 'recipeIngredient'})]
+                                  page_graph.find_all('span', {'itemprop': 'Ingredients'})]
+        print(results)
 
+        print(page_graph.find_all('span', {'itemprop': 'recipeIngredient'}))
         results['labels'] = [ingredient.text for ingredient in \
                              # page_graph.find_all('span', {'itemprop':'recipeIngredient'})
                              page_graph.find_all('span', {'data-id': '0'})]
