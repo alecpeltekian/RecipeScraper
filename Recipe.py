@@ -8,6 +8,8 @@ req_url = (input("Enter recipe URL : "))
 
 scraper = scrape_me(req_url)
 
-#print(scraper.ingredients())
-print(scraper.instructions())
+# print(scraper.ingredients())
+instructions = scraper.instructions()
 #print(scraper.instructions_list())
+steps = instructions.split(".") 
+#print(steps)
