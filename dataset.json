@@ -411,7 +411,9 @@
             "shake",
             "spread",
             "sprinkle",
-            "stir"
+            "stir",
+            "evaporate",
+            "evaporated"
         ],
         "measures":[
             "bag",
@@ -549,6 +551,56 @@
             "pizza cutter",
             "oven glove"
 
+        ],
+        "preparations":[
+        "coarsely chopped",
+            "dry rosted",
+            "thinly sliced",
+            "roughly chopped",
+            "freeze dried",
+            "finely diced",
+            "finely chopped",
+            "peeled",
+            "battered",
+            "canned",
+            "beaten",
+            "boiled",
+            "braised",
+            "brewed",
+            "caked",
+            "blanched",
+            "blended",
+            "browned",
+            "chilled",
+            "chopped",
+            "charred",
+            "cored",
+            "cubed",
+            "creamed",
+            "crushed",
+            "cut",
+            "diced",
+            "drained",
+            "divided",
+            "dried",
+            "fermented",
+            "evaporated",
+            "minced",
+            "mashed",
+            "melted",
+            "grated",
+            "roasted",
+            "removed",
+            "reserved",
+            "rinsed",
+            "seasoned",
+            "rubbed",
+            "sliced",
+            "shredded",
+            "soaked",
+            "thawed",
+            "torn"
+       
         ]
 
     }
