@@ -71,7 +71,15 @@
             "radishes",
             "shallots",
             "zucchini",
-            "winged beans"
+            "winged beans",
+            "vegetable oil",
+            "soy sauce",
+            "teriyaki sauce",
+            "hot sauce",
+            "buffalo sauce",
+            "ketchup",
+            "mustard"
+
         ],
         "meat":[
             "steak",
@@ -147,6 +155,7 @@
             "cardamom",
             "anise seed",
             "basil",
+            "salt",
             "curry leaves",
             "whole chilies",
             "dried chilies",
@@ -182,7 +191,11 @@
             "saffron",
             "sage leaves",
             "ground sage",
-            "ground rosemary"
+            "ground rosemary",
+            "lemon pepper",
+            "brown sugar",
+            "sugar",
+            "water"
         ],
         "seasonings":[
             "all purpose",
@@ -467,7 +480,8 @@
             "qt",
             "qts",
             "tsp",
-            "tsps"
+            "tsps",
+            "to taste"
                 ],
         "tools-vessels" :[
             "bag",
