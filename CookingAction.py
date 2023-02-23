@@ -30,7 +30,7 @@ def list_navigation(list):
         t=nlp(list[index])
         for token in t:
           if token.tag_=='VB':
-            print(token.text)
+            print("Cooking Actions are:",token.text)
         choice = input("Enter your choice: ")
         if choice == "1" and index < len(list) - 1:
             index += 1
