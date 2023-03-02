@@ -72,7 +72,6 @@
             "shallots",
             "zucchini",
             "winged beans",
-            "vegetable oil",
             "soy sauce",
             "teriyaki sauce",
             "hot sauce",
@@ -80,6 +79,11 @@
             "ketchup",
             "mustard"
 
+        ],
+        "cookingmedium":[
+            "water",
+            "vegetable oil",
+            "olive oil"
         ],
         "meat":[
             "steak",
@@ -198,8 +202,7 @@
             "ground rosemary",
             "lemon pepper",
             "brown sugar",
-            "sugar",
-            "water"
+            "sugar"
         ],
         "seasonings":[
             "all purpose",
