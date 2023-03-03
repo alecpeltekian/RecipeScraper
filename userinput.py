@@ -2,7 +2,7 @@ from Recipe import *
 
 def list_navigation(list):
     index = 0
-    for _ in list:
+    while index < len(list):
         print("Below are the list of instructions to create your choice of food")
         print("1. Choose next step")
         print("2. Go back to previous step")
