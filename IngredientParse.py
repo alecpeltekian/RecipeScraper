@@ -19,7 +19,7 @@ deflist = ['what is', "what are"]
 Dict = {}
     
 
-ingredients = vegetables + meat + seafood + poultry + spices + cookingmedium
+ingred = vegetables + meat + seafood + poultry + spices + cookingmedium
 
 def Parse(list):
 
@@ -37,7 +37,7 @@ def Parse(list):
                 unit += token.text
             if (token.tag_ == "CD"):
                 amount += token.text
-            if (token.text in ingredients):
+            if (token.text in ingred):
                 name += token.text
                 if (token.text in vegetables):
                     cat = "Vegetable"
@@ -54,7 +54,7 @@ def Parse(list):
             if (token.text in preparations):
                 prep += token.text
             combined = prev + " " + token.text
-            if (combined in ingredients):
+            if (combined in ingred):
                 name = combined
             if (combined in measures):
                 unit = combined
@@ -66,49 +66,33 @@ def Parse(list):
     return Dict
 
 
-def IngredientQuestion(q):
+def IngredientQuestion(q, Dict):
     q = q.lower()
     doc = nlp(q)
     ingredient = ''
     prev = ""
     for token in doc:
-        if (token.text in ingredients):
+        if (token.text in ingred):
             ingredient = token.text
         combined = prev + " " + token.text
-        if (combined in ingredients):
+        if (combined in ingred):
             ingredient = combined
         prev = token.text
 
     if(ingredient not in Dict.keys()):
-        print("Not a valid ingredient, try again")
-        return
+        return "Not a valid ingredient, try again"
     if any(p in q for p in preplist):
         if(Dict[ingredient]["Preperation"] == ""):
             string = ingredient + " does not require any prep before starting the recipe"
-            print(string)
-            return
+            return string
         else:
-            print(Dict[ingredient]["Preperation"])
-            return
+            string = Dict[ingredient]["Preperation"]
+            return string
     if any(m in q for m in measurelist):
         string = Dict[ingredient]["Quantity"] + ' ' + Dict[ingredient]["Unit"]
-        print(string)
-        return
+        return string
     if any(d in q for d in deflist):
         string = Dict[ingredient]["Category"] + ", look at https://en.wikipedia.org/wiki/" + ingredient.replace(" ", "_") + " for more information"
-        print(string)
-        return  
+        return string
     else:
-        print("Not a valid ingredient question, try rephrasing")
-        return
-
-
-
-
-
-test = Parse(['1.5 pounds salmon fillets', 'lemon pepper to taste', 'garlic powder to taste', 'salt to taste', '0.33333334326744 cup soy sauce', '0.33333334326744 cup brown sugar', '0.33333334326744 cup water', '0.25 cup vegetable oil'])
-#print(test)
-#print("onions" in Dict.keys())
-IngredientQuestion("What is salmon")
-#print(cookingmedium)
-
+        return "Not a valid ingredient question, try rephrasing"

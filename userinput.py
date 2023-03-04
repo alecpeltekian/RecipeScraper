@@ -4,7 +4,10 @@ f = open('dataset.json')
 data = json.load(f)
 import spacy
 import en_core_web_sm
+#nlp = spacy.load("en_core_web_sm")
 nlp=en_core_web_sm.load()
+import pywhatkit as kit 
+from time import sleep
 import nltk
 from nltk.corpus import wordnet
 nltk.download('wordnet')
@@ -44,10 +47,12 @@ def QuestionAnswer(question, p, q):
     question = question.lower()
     doc = nlp(question)
     tool = ""
+    ingredquestion = False
     for token in doc:
             if (token.text in tools):
                 tool = token.text
-
+            if (token.text in ingred):
+                ingredquestion = True
     if ("ingredients" in question or "ingredient list" in question):
         print(ingredients)
         return
@@ -84,9 +89,7 @@ def QuestionAnswer(question, p, q):
                 string4 = q[q.find('until'):].strip()
                 print(string4) 
         return
-    elif "how" in question:
-        import pywhatkit as kit 
-        from time import sleep
+    elif ("how" in question and ingredquestion == False):
         kit.playonyt(question)
         return
     elif len(tool) > 0:
@@ -94,8 +97,11 @@ def QuestionAnswer(question, p, q):
         word = wordnet.synsets(input_string)
         print(word[0].definition())
         return
-        
+    elif ingredquestion:
+        answ = IngredientQuestion(question, ingreddict)
+        print(answ)
+        return   
     print ("Invalid question, try rephrasing")
     return
-Parse(ingredients)
+ingreddict = Parse(ingredients)
 list_navigation(steps)

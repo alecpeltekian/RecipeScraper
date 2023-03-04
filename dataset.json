@@ -69,6 +69,7 @@
             "okra",
             " radish",
             "radishes",
+            "shallot",
             "shallots",
             "zucchini",
             "winged beans",
@@ -83,7 +84,12 @@
         "cookingmedium":[
             "water",
             "vegetable oil",
-            "olive oil"
+            "olive oil",
+            "peanut oil",
+            "canola oil",
+            "rapeseed oil",
+            "coconut oil",
+            "oil"
         ],
         "meat":[
             "steak",
@@ -160,6 +166,7 @@
         ],
         "spices":[
             "bay leaves",
+            "bay leaf",
             "cardamom",
             "anise seed",
             "basil",
@@ -392,6 +399,7 @@
             "cook",
             "rub",
             "saute",
+            "sauté",
             "process",
             "pulp",
             "puree",
