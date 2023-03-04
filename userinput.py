@@ -16,6 +16,7 @@ from IngredientParse import *
 
 tools = data["specifications"]["tools_vessels"]
 actions = data["specifications"]["actions"]
+heat = ['low', 'medium-low', 'medium low', 'medium', 'medium high', 'medium high', 'high']
 
 def list_navigation(list):
     index = 0
@@ -58,6 +59,7 @@ def QuestionAnswer(question, p, q):
         return
     elif 'how long' in question or "how much time" in question:
 
+
         question=question.split(" ")
         flag1=0
         for i in question:
@@ -88,6 +90,29 @@ def QuestionAnswer(question, p, q):
             if flagp==0:
                 string4 = q[q.find('until'):].strip()
                 print(string4) 
+        return
+    if 'temperature' in question or 'temp' in question or 'heat' in question:
+        flag = False
+        flagt=0
+        for i in heat:
+            if (i in p):
+                string = i + " heat"
+                print(string)
+                return
+
+        tok_dummy = ''
+        doc2=nlp(p)
+        for token in doc2:
+            if flag:
+                flag = False
+      
+                if(token.text == 'degrees' or token.text == 'C'):
+                    print(tok_dummy, token.text)
+                    flagt=1
+                    break
+            if token.tag_=='CD':
+                tok_dummy = token.text
+                flag = True
         return
     elif ("how" in question and ingredquestion == False):
         kit.playonyt(question)
