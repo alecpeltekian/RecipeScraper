@@ -16,7 +16,7 @@ from IngredientParse import *
 
 tools = data["specifications"]["tools_vessels"]
 actions = data["specifications"]["actions"]
-heat = ['low', 'medium-low', 'medium low', 'medium', 'medium high', 'medium high', 'high']
+heat = ['medium-low', 'medium low', 'medium-high', 'medium high', 'low', 'medium', 'high']
 
 def list_navigation(list):
     index = 0
@@ -57,7 +57,7 @@ def QuestionAnswer(question, p, q):
     if ("ingredients" in question or "ingredient list" in question):
         print(ingredients)
         return
-    elif 'how long' in question or "how much time" in question:
+    elif 'how long' in question or 'how much time' in question:
 
 
         question=question.split(" ")

@@ -24,6 +24,7 @@ ingred = vegetables + meat + seafood + poultry + spices + cookingmedium
 def Parse(list):
 
     for i in list:
+        i = i.lower()
         doc = nlp(i)
         temp = {}
         amount = ""

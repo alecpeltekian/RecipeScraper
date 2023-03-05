@@ -150,7 +150,15 @@
             "pigeon",
             "quail",
             "turkey",
-            "hen"
+            "hen",
+            "eggs",
+            "egg",
+            "cheese",
+            "parmesan cheese",
+            "mozzarella cheese",
+            "swiss cheese",
+            "american cheese",
+            "cheddar cheese"
         ],
         "dessert":[
             "sweet",
@@ -502,6 +510,7 @@
             "bag",
             "baking sheet",
             "cutter",
+            "skillet",
             "basket",
             "basket skimmer",
             "balloon whisk",
