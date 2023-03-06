@@ -5,6 +5,10 @@ To get started, install all requirements from the requirements.txt file
 
 How to use:
 
+Run userinput.py
+
+Provide an allrecipes.com URL when requested
+
 Type 1 to go to the next step, 2 to go to the previous step, or 3 to repeat the current step
 You can also ask questions
 
