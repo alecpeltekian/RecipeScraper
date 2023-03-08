@@ -12,7 +12,7 @@ indianFood = data["specifications"]["anyToIndian"]
 
 
 
-print("Welcome to The Interactive Cookbook. Provide a valid Allrecipes.com url/"
+print("Provide a valid Allrecipes.com url/"
       "of recipe of your choice or type 'exit' to cancel.  ")
 req_url = (input("Enter recipe URL : "))
 
@@ -100,6 +100,32 @@ def anyToIndian(ingredients, instructions):
             
       
       return ingredients, instructions
+
+trans = (input("Type 5 to transform your recipe:"))
+
+if trans == 5:
+      print(f"\n")
+      print("Below are the list of transformations you can use:")
+      print("1. Healthy to Unhealthy")
+      print("2. Unhealthy to Healthy")
+      print("3. Vegeterian to NonVegeterian")
+      print("4. NonVegeterian to Vegeterian")
+      print("5. To Indian Style!")
+      print("6. Repeat")
+      choice = input("Enter your choice: ")
+      if choice == "1":
+            ingredients, instructions = healthyToUnhealthy(ingredients, instructions)
+      elif choice == "2":
+            ingredients, instructions = unhealthToHealthy(ingredients, instructions)
+      elif choice == "3":
+            ingredients, instructions = vegToNonVeg(ingredients, instructions)
+      elif choice == "4":
+            ingredients, instructions = nonVegToVeg(ingredients, instructions)
+      elif choice == "5":
+            ingredients, instructions = anyToIndian(ingredients, instructions)
+      elif choice == "6":
+            pass
+
         
 #healthy_ingred, healthy_instrum = healthyToUnhealthy(ingredients, instructions)
 #unhealthy_ingred, unhealthy_instrum = unhealthToHealthy(ingredients, instructions)
