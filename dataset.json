@@ -639,7 +639,735 @@
             "thawed",
             "torn"
        
-        ]
+        ],
+        "nonvegToVeg": [
+            {
+              "nonveg": "beef",
+              "veg": "soybean"
+            },
+            {
+              "nonveg": "buffalo",
+              "veg": "seitan"
+            },
+            {
+              "nonveg": "salami",
+              "veg": "black bean"
+            },
+            {
+              "nonveg": "veal",
+              "veg": "soybean"
+            },
+            {
+              "nonveg": "caribou",
+              "veg": "soybean"
+            },
+            {
+              "nonveg": "goat",
+              "veg": "seitan"
+            },
+            {
+              "nonveg": "cornish hens",
+              "veg": "cottage cheese"
+            },
+            {
+              "nonveg": "kangaroo",
+              "veg": "cottage cheese"
+            },
+            {
+              "nonveg": "lamb",
+              "veg": "seitan"
+            },
+            {
+              "nonveg": "venison",
+              "veg": "soybean"
+            },
+            {
+              "nonveg": "duck",
+              "veg": "mushroom"
+            },
+            {
+              "nonveg": "chicken",
+              "veg": "paneer"
+            },
+            {
+              "nonveg": "turkey",
+              "veg": "eggplant"
+            },
+            {
+              "nonveg": "quail",
+              "veg": "jackfuit"
+            },
+            {
+              "nonveg": "pheasant",
+              "veg": "eggplant"
+            },
+            {
+              "nonveg": "game hens",
+              "veg": "cottage cheese"
+            },
+            {
+              "nonveg": "ham",
+              "veg": "mashed potato balls"
+            },
+            {
+              "nonveg": "pork",
+              "veg": "tofu"
+            },
+            {
+              "nonveg": "bacon",
+              "veg": "tempeh"
+            },
+            {
+              "nonveg": "sausage",
+              "veg": "seitan"
+            },
+            {
+              "nonveg": "andouille",
+              "veg": "soybean"
+            },
+            {
+              "nonveg": "emu",
+              "veg": "mashed potato balls"
+            },
+            {
+              "nonveg": "rabbit",
+              "veg": "tofu"
+            },
+            {
+              "nonveg": "steak",
+              "veg": "seitan"
+            },
+        
+            {
+              "nonveg": "tuna",
+              "veg": "jackfuit"
+            },
+            {
+              "nonveg": "sardine",
+              "veg": "chickpeas"
+            },
+            {
+              "nonveg": "mahi mahi",
+              "veg": "avacado"
+            },
+            {
+              "nonveg": "crab",
+              "veg": "jackfruit"
+            },
+            {
+              "nonveg": "salmon",
+              "veg": "carrots"
+            },
+            {
+              "nonveg": "catfish",
+              "veg": "eggplant"
+            },
+            {
+              "nonveg": "squid",
+              "veg": "mushroom"
+            },
+            {
+              "nonveg": "octopus",
+              "veg": "king mushroom"
+            },
+            {
+              "nonveg": "lobster",
+              "veg": "mushroom"
+            },
+            {
+              "nonveg": "sirloin",
+              "veg": "veg pattie"
+            },
+            {
+              "nonveg": "non-veg",
+              "veg": "veg"
+            },
+            {
+              "nonveg": "non vegetarian",
+              "veg": "vegetarian"
+            },
+            {
+              "nonveg": "liver pate",
+              "veg": "hummus"
+            }
+          ],
+          "healthyToUnhealthy": [
+            {
+              "healthy": "almond butter",
+              "unhealthy": "peanut butter"
+            },
+            {
+              "healthy": "almond milk",
+              "unhealthy": "milk"
+            },
+            {
+              "healthy": "almonds",
+              "unhealthy": "croutons"
+            },
+            {
+              "healthy": "arrowroot powder",
+              "unhealthy": "corn starch"
+            },
+            {
+              "healthy": "bacon",
+              "unhealthy": "sausage"
+            },
+            {
+              "healthy": "bagels",
+              "unhealthy": "muffins"
+            },
+            {
+              "healthy": "beef stock",
+              "unhealthy": "red wine"
+            },
+            {
+              "healthy": "cauliflower",
+              "unhealthy": "sweet potatoes"
+            },
+            {
+              "healthy": "chia seeds",
+              "unhealthy": "bread crumbs"
+            },
+            {
+              "healthy": "chicken stock",
+              "unhealthy": "white wine"
+            },
+            {
+              "healthy": "cocoa nibs",
+              "unhealthy": "chocolate chips"
+            },
+            {
+              "healthy": "coconut cream",
+              "unhealthy": "heavy cream"
+            },
+            {
+              "healthy": "coconut flour",
+              "unhealthy": "flour"
+            },
+            {
+              "healthy": "olive oil",
+              "unhealthy": "vegetable oil"
+            },
+            {
+              "healthy": "coconut sugar",
+              "unhealthy": "brown sugar"
+            },
+            {
+              "healthy": "coconut sugar",
+              "unhealthy": "sugar"
+            },
+            {
+              "healthy": "corn tortilla",
+              "unhealthy": "tortilla"
+            },
+            {
+              "healthy": "croissant",
+              "unhealthy": "muffin"
+            },
+            {
+              "healthy": "egg whites",
+              "unhealthy": "eggs"
+            },
+            {
+              "healthy": "fruit-infused water",
+              "unhealthy": "fruit juice"
+            },
+            {
+              "healthy": "goat cheese",
+              "unhealthy": "low-fat cheese"
+            },
+            {
+              "healthy": "greek yogurt",
+              "unhealthy": "sour cream"
+            },
+            {
+              "healthy": "honey",
+              "unhealthy": "corn syrup"
+            },
+            {
+              "healthy": "hummus",
+              "unhealthy": "mayonnaise"
+            },
+            {
+              "healthy": "kale chips",
+              "unhealthy": "pretzels"
+            },
+            {
+              "healthy": "lettuce",
+              "unhealthy": "tortillas"
+            },
+            {
+              "healthy": "margarine",
+              "unhealthy": "butter"
+            },
+            {
+              "healthy": "mashed cauliflower",
+              "unhealthy": "mashed potatoes"
+            },
+            {
+              "healthy": "milk",
+              "unhealthy": "creamer"
+            },
+            {
+              "healthy": "nuts",
+              "unhealthy": "granola"
+            },
+            {
+              "healthy": "oatmeal",
+              "unhealthy": "cereal"
+            },
+            {
+              "healthy": "olive oil and vinegar",
+              "unhealthy": "ranch dressing"
+            },
+            {
+              "healthy": "palm shortening",
+              "unhealthy": "shortening"
+            },
+            {
+              "healthy": "peanut butter and nutella",
+              "unhealthy": "reese's"
+            },
+            {
+              "healthy": "peanut butter and nutella",
+              "unhealthy": "reeses"
+            },
+            {
+              "healthy": "popcorn",
+              "unhealthy": "potato chips"
+            },
+            {
+              "healthy": "quinoa",
+              "unhealthy": "white rice"
+            },
+            {
+              "healthy": "romaine lettuce",
+              "unhealthy": "iceberg lettuce"
+            },
+            {
+              "healthy": "smashed avocado",
+              "unhealthy": "jam"
+            },
+            {
+              "healthy": "sprouted toast",
+              "unhealthy": "bagel"
+            },
+            {
+              "healthy": "stevia",
+              "unhealthy": "sugar"
+            },
+            {
+              "healthy": "tea",
+              "unhealthy": "soda"
+            },
+            {
+              "healthy": "tortillas",
+              "unhealthy": "pizza dough"
+            },
+            {
+              "healthy": "unrefined powdered sugar",
+              "unhealthy": "powdered sugar"
+            },
+            {
+              "healthy": "whole grain pasta",
+              "unhealthy": "pasta"
+            },
+            {
+              "healthy": "whole grain spaghetti",
+              "unhealthy": "spaghetti"
+            },
+            {
+              "healthy": "whole wheat bread",
+              "unhealthy": "white bread"
+            },
+            {
+              "healthy": "wheat noodles",
+              "unhealthy": "noodles"
+            },
+            {
+              "healthy": "whole grain flour",
+              "unhealthy": "white flour"
+            },
+            {
+              "healthy": "plant-based bacon",
+              "unhealthy": "bacon"
+            },
+            {
+              "healthy": "avocado and dark chocolate frosting",
+              "unhealthy": "frosting"
+            },
+            {
+              "healthy": "grade A medium amber maple syrup",
+              "unhealthy": "maple syrup"
+            },
+            {
+              "healthy": "non-fat mozzarella",
+              "unhealthy": "mozzarella cheese"
+            },
+            {
+              "healthy": "soy parmesan",
+              "unhealthy": "parmesan cheese"
+            }
+          ],
+          "anyToIndian": [
+            {
+              "other": "almond",
+              "indian": "clarified"
+            },
+            {
+              "other": "garbanzo",
+              "indian": "kidney"
+            },
+            {
+              "other": "jalapeno",
+              "indian": "bell"
+            },
+            {
+              "other": "kirschwasser",
+              "indian": "wine"
+            },
+            {
+              "other": "taco",
+              "indian": "wheat roti"
+            },
+            {
+              "other": "thyme",
+              "indian": "pudina (mint)"
+            },
+            {
+              "other": "herbs",
+              "indian": "leaves"
+            },
+            {
+              "other": "spaghetti",
+              "indian": "vermicelli"
+            },
+            {
+              "other": "lasagna noodles",
+              "indian": "vermicelli"
+            },
+            {
+              "other": "cornish hens",
+              "indian": "chicken"
+            },
+            {
+              "other": "romaine lettuce",
+              "indian": "cabbage"
+            },
+            {
+              "other": "salsa",
+              "indian": "tomato puree"
+            },
+            {
+              "other": "ranch",
+              "indian": "pudina chutney"
+            },
+            {
+              "other": "barbeque",
+              "indian": "maggi hot and sour"
+            },
+            {
+              "other": "noodles",
+              "indian": "vermicelli"
+            },
+            {
+              "other": "pasta",
+              "indian": "vermicelli"
+            },
+            {
+              "other": "focaccia",
+              "indian": ""
+            },
+            {
+              "other": "butternut squash",
+              "indian": "sweet pumpkin"
+            },
+            {
+              "other": "squash",
+              "indian": "pumpkin"
+            },
+            {
+              "other": "pesto",
+              "indian": "pudina chutney"
+            },
+            {
+              "other": "quinoa",
+              "indian": "broken wheat"
+            },
+            {
+              "other": "tortilla",
+              "indian": "wheat roti"
+            },
+            {
+              "other": "zucchini",
+              "indian": "cucumber"
+            },
+            {
+              "other": "lean ground beef",
+              "indian": "lamb"
+            },
+            {
+              "other": "ground beef",
+              "indian": "lamb"
+            },
+            {
+              "other": "beef",
+              "indian": "lamb"
+            },
+            {
+              "other": "pork",
+              "indian": "goat"
+            },
+            {
+              "other": "steak",
+              "indian": "goat"
+            },
+            {
+              "other": "sausage",
+              "indian": "gram flour sticks"
+            },
+            {
+              "other": "bacon",
+              "indian": "soy chaap"
+            },
+            {
+              "other": "lobster",
+              "indian": "button mushrooms"
+            },
+            {
+              "other": "turkey",
+              "indian": "chicken"
+            },
+            {
+              "other": "pheasant",
+              "indian": "chicken"
+            },
+            {
+              "other": "game chicken",
+              "indian": "chicken"
+            },
+            {
+              "other": "quail",
+              "indian": "chicken"
+            },
+            {
+              "other": "duck",
+              "indian": "chicken"
+            },
+            {
+              "other": "tilapia",
+              "indian": "rohu"
+            },
+            {
+              "other": "sardines",
+              "indian": "rohu"
+            },
+            {
+              "other": "mahi mahi",
+              "indian": "katla"
+            },
+            {
+              "other": "salmon",
+              "indian": "rawas"
+            },
+            {
+              "other": "mackarel",
+              "indian": "bangda"
+            },
+            {
+              "other": "seer fish",
+              "indian": "surmai"
+            },
+            {
+              "other": "milk fish",
+              "indian": "bangus"
+            },
+            {
+              "other": "squid",
+              "indian": "cuttlefish"
+            },
+            {
+              "other": "octupus",
+              "indian": "calamari"
+            },
+            {
+              "other": "avocado",
+              "indian": "potato"
+            },
+            {
+              "other": "sour cream",
+              "indian": "curd"
+            },
+            {
+              "other": "oregano",
+              "indian": "garam masala"
+            },
+            {
+              "other": "basil",
+              "indian": "cilantro"
+            },
+            {
+              "other": "avocado",
+              "indian": "potato"
+            },
+            {
+              "other": "hot dog",
+              "indian": "patty"
+            },
+            {
+              "other": "mayonnaise",
+              "indian": "pudina chutney"
+            },
+            {
+              "other": "mayo",
+              "indian": "pudina chutney"
+            },
+            {
+              "other": "chives",
+              "indian": "spring onions"
+            },
+            {
+              "other": "pizza crust",
+              "indian": "garlic naan"
+            },
+            {
+              "other": "parmesan cheese",
+              "indian": "chhena"
+            },
+            {
+              "other": "hummus",
+              "indian": "coconut chutney"
+            },
+            {
+              "other": "cheddar cheese",
+              "indian": "paneer"
+            },
+            {
+              "other": "feta cheese",
+              "indian": "paneer"
+            },
+            {
+              "other": "gorgonzola cheese",
+              "indian": "paneer"
+            },
+            {
+              "other": "mozzarella cheese",
+              "indian": "butter"
+            },
+            {
+              "other": "cottage cheese",
+              "indian": "paneer"
+            },
+            {
+              "other": "ricotta cheese",
+              "indian": "paneer"
+            },
+            {
+              "other": "mascarpone cheese",
+              "indian": "paneer"
+            },
+        
+            {
+              "other": "monterey",
+              "indian": ""
+            },
+            {
+              "other": "jack",
+              "indian": "butter"
+            },
+            {
+              "other": "provolone cheese",
+              "indian": "curd"
+            },
+            {
+              "other": "cheese",
+              "indian": "paneer"
+            },
+            {
+              "other": "thai chile peppers",
+              "indian": "green chilies"
+            },
+            {
+              "other": "peanut",
+              "indian": "sunflower"
+            },
+            {
+              "other": "ketchup",
+              "indian": "tomato puree"
+            },
+            {
+              "other": "olive",
+              "indian": "sunflower"
+            },
+            {
+              "other": "sesame",
+              "indian": "sunflower"
+            },
+            {
+              "other": "margarine",
+              "indian": "butter"
+            },
+            {
+              "other": "liver pate",
+              "indian": "diced chicken"
+            },
+            {
+              "other": "celery",
+              "indian": "vegetable"
+            },
+            {
+              "other": "balsamic vinegar",
+              "indian": "lemon juice"
+            },
+            {
+              "other": "vinegar",
+              "indian": "lemon juice"
+            },
+            {
+              "other": "worcestershire",
+              "indian": "lemon juice"
+            },
+            {
+              "other": "italian seasoning",
+              "indian": "garam masala"
+            },
+            {
+              "other": "heinz",
+              "indian": ""
+            },
+            {
+              "other": "cayenne",
+              "indian": "red chili"
+            },
+            {
+              "other": "dill weed",
+              "indian": "cilantro"
+            },
+            {
+              "other": "parsley",
+              "indian": "cilantro"
+            },
+            {
+              "other": "pita",
+              "indian": "indian roti"
+            },
+            {
+              "other": "kosher",
+              "indian": ""
+            },
+            {
+              "other": "hoisin",
+              "indian": "hot chilli"
+            },
+            {
+              "other": "sirloin",
+              "indian": "lamb"
+            },
+            {
+              "other": "buffalo",
+              "indian": "chicken"
+            }
+          ]
 
     }
 }
