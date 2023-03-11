@@ -3,6 +3,7 @@ import json
 f = open('dataset.json')
 import spacy
 nlp=spacy.load("en_core_web_sm")
+import re
 
 data = json.load(f)
 health = data["specifications"]["healthyToUnhealthy"]
@@ -101,9 +102,63 @@ def anyToIndian(ingredients, instructions):
       
       return ingredients, instructions
 
-trans = (input("Type 5 to transform your recipe:"))
+def singleSwap(ingredients, instructions):
+      question= input("What ingredient do you want to replace, in the form: 'Replace X with Y':")
+      N=2
+      R=4
+      res=""
+      res1=""
+      count=0
+      count1 = 0
+      for ele in question:
+            if ele == ' ':
+                  count = count + 1
+                  if count == N:
+                        break
+                  res = ""
+            else :
+                  res = res + ele
+      for ele in question:
+            if ele == ' ':
+                  count1 = count1 + 1
+                  if count1 == R:
+                        break
+                  res1 = ""
+            else :
+                  res1 = res1 + ele
+      instructions = instructions.replace(res, res1)
+      for i in range(len(ingredients)):
+            ingredients[i] = ingredients[i].replace(res, res1)
+      return ingredients, instructions
 
-if trans == 5:
+def scaleIngredients(ingredients, instructions):
+      scale = (input("Enter a number to scale ingredient(0.5, 2, etc.): "))
+      scale = float(scale)
+      for i in range(len(ingredients)):
+            l = []
+            l2 = []
+            for t in ingredients[i].split():
+                  try:
+                        l.append(float(t))
+                        l2.append(t)
+                  except ValueError:
+                        pass
+            print(l, l2)
+            if (len(l) > 0):
+                  orig = l2[0]
+                  num = l[0]
+                  new = num * scale
+                  ingredients[i] = ingredients[i].replace(orig, str(new))
+
+      return ingredients, instructions
+
+
+print(ingredients)
+trans = (input("Type 5 to transform your recipe: "))
+print(trans)
+print(trans ==5)
+
+if trans == '5':
       print(f"\n")
       print("Below are the list of transformations you can use:")
       print("1. Healthy to Unhealthy")
@@ -111,7 +166,9 @@ if trans == 5:
       print("3. Vegeterian to NonVegeterian")
       print("4. NonVegeterian to Vegeterian")
       print("5. To Indian Style!")
-      print("6. Repeat")
+      print("6. Replace Single Ingredient")
+      print("7. Scale up or down")
+      print("8. Repeat")
       choice = input("Enter your choice: ")
       if choice == "1":
             ingredients, instructions = healthyToUnhealthy(ingredients, instructions)
@@ -124,6 +181,10 @@ if trans == 5:
       elif choice == "5":
             ingredients, instructions = anyToIndian(ingredients, instructions)
       elif choice == "6":
+            ingredients, instructions = singleSwap(ingredients, instructions)
+      elif choice == "7":
+            ingredients, instructions = scaleIngredients(ingredients, instructions)
+      elif choice == "8":
             pass
 
         
@@ -131,11 +192,12 @@ if trans == 5:
 #unhealthy_ingred, unhealthy_instrum = unhealthToHealthy(ingredients, instructions)
 #veg_ingred, veg_instrum = vegToNonVeg(ingredients, instructions)
 #nonveg_ingred, nonveg_instrum = nonVegToVeg(ingredients, instructions)
-indian_ingred, indian_instrum = anyToIndian(ingredients, instructions)
+#indian_ingred, indian_instrum = anyToIndian(ingredients, instructions)
 
-print(indian_ingred, indian_instrum)
+#print(indian_ingred, indian_instrum)
 
-
+print(ingredients)
+print(instructions)
     
 #https://www.allrecipes.com/recipe/24074/alysias-basic-meat-lasagna/
 
