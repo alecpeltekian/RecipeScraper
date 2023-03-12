@@ -27,4 +27,15 @@ How much/many {ingredient} - provides count or quantity + measurement
 How to prep {ingredient} - ingredient prep before starting recipe (chopped, grated, etc.)
 
 
-Demo link: https://drive.google.com/file/d/1L267GWFzxdVzH9qEmCfTQM1x67sJZcsL/view?usp=sharing
+Demo links: 
+
+Interactive Recipe
+
+https://drive.google.com/file/d/1L267GWFzxdVzH9qEmCfTQM1x67sJZcsL/view?usp=sharing
+
+
+
+Recipe Transformation
+
+https://drive.google.com/file/d/1Vr6l1OdD7oaq66VohZ2mIkSOfo6uG4hf/view?usp=sharing
+
