@@ -1367,7 +1367,279 @@
               "other": "buffalo",
               "indian": "chicken"
             }
+          ],
+        "anyToChinese": [
+            {
+              "other": "filling",
+              "chinese": "red bean paste"
+            },
+            {
+              "other": "parsley",
+              "indian": "cilantro"
+            },
+            {
+              "other": "iceberg lettuce",
+              "chinese": "bok choy"
+            },
+            {
+              "other": "cabbage",
+              "chinese": "snow cabbage"
+            },
+            {
+              "other": "broccoli",
+              "chinese": "chinese broccoli"
+            },
+            {
+              "other": "radish",
+              "chinese": "white radish"
+            },
+            {
+              "other": "turnip",
+              "chinese": "white radish"
+            },
+            {
+              "other": "tortilla",
+              "chinese": "spring roll wrapper"
+            },
+            {
+              "other": "seitan",
+              "chinese": "tofu"
+            },
+            {
+              "other": "ground beef",
+              "chinese": "ground pork"
+            },
+            {
+              "other": "ground turkey",
+              "chinese": "ground pork"
+            },
+            {
+              "other": "olive oil",
+              "chinese": "peanut oil"
+            },
+            {
+              "other": "burger",
+              "chinese": "chinese burger"
+            },
+            {
+              "other": "canola oil",
+              "chinese": "peanut oil"
+            },
+            {
+              "other": "coconut oil"",
+              "chinese": "peanut oil"
+            },
+            {
+              "other": "corn oil",
+              "chinese": "peanut oil"
+            },
+            {
+              "other": "sunflower oil",
+              "chinese": "peanut oil"
+            },
+            {
+              "other": "safflower oil",
+              "chinese": "peanut oil"
+            },
+            {
+              "other": "spaghetti",
+              "chinese": "lo mein"
+            },
+            {
+              "other": "vinegar",
+              "chinese": "black vinegar"
+            },
+            {
+              "other": "red pepper flakes",
+              "chinese": "dried chili pepper"
+            },
+            {
+              "other": "italian parsley",
+              "chinese": "cilantro"
+            },
+            {
+              "other": "parmigiano-reggiano cheese",
+              "chinese": "fermented bean curd"
+            },
+            {
+              "other": "parmesan",
+              "chinese": "fermented bean curd"
+            },
+            {
+              "other": "parmesan cheese",
+              "chinese": "fermented bean curd"
+            },
+            {
+              "other": "mozzarella",
+              "chinese": "sprouts"
+            },
+            {
+              "other": "mozzarella cheese",
+              "chinese": "sprouts"
+            },
+            {
+              "other": "penne",
+              "chinese": "lo mein"
+            },
+            {
+              "other": "mushroom",
+              "chinese": "shiitake mushroom"
+            },
+            {
+              "other": "salad",
+              "chinese": "malatang"
+            },
+            {
+              "other": "quesadilla",
+              "chinese": "xian bing"
+            },
+            {
+              "other": "french pancake",
+              "chinese": "jian bing"
+            },
+            {
+              "other": "meat sauce",
+              "chinese": "da lu mian"
+            },
+            {
+              "other": "churro",
+              "chinese": "you tiao"
+            },
+            {
+              "other": "pizza",
+              "chinese": "scallion pancake"
+            },
+            {
+              "other": "wine",
+              "chinese": "shaoxing wine"
+            },
+            {
+              "other": "chicken nuggets",
+              "chinese": "chicken balls"
+            },
+            {
+              "other": "jerkey",
+              "chinese": "bak kwa"
+            },
+            {
+              "other": "pork",
+              "chinese": "mapo doufu"
+            },
+            {
+              "other": "meat",
+              "chinese": "bakkwa"
+            },
+            {
+              "other": "lamb",
+              "chinese": "lamb broth"
+            },
+            {
+              "other": "pasta",
+              "chinese": "lo mein"
+            },
+            {
+              "other": "sauce",
+              "chinese": "hoisin sauce"
+            },
+            {
+              "other": "shrimp",
+              "chinese": "cha jang mein"
+            },
+            {
+              "other": "white rice",
+              "chinese": "jasmine rice"
+            },
+            {
+              "other": "brown rice",
+              "chinese": "jasmine rice"
+            },
+            {
+              "other": "rice",
+              "chinese": "jasmine rice"
+            },
+            {
+              "other": "corn",
+              "chinese": "bok choy"
+            },
+            {
+              "other": "tea",
+              "chinese": "chinese tea"
+            },
+            {
+              "other": "sausage",
+              "chinese": "lap ceung"
+            },
+            {
+              "other": "salsa",
+              "chinese": "mala sauce"
+            },
+            {
+              "other": "maple sauce",
+              "chinese": "mala sauce"
+            },
+            {
+              "other": "maple syrup",
+              "chinese": "chinese mala syrup"
+            },
+            {
+              "other": "oregano",
+              "chinese": "cilantro"
+            },
+            {
+              "other": "marinara",
+              "chinese": "chicken broth"
+            },
+            {
+              "other": "marinara sauce",
+              "chinese": "chicken broth"
+            },
+            {
+              "other": "tomato sauce",
+              "chinese": "chicken broth"
+            },
+            {
+              "other": "spaghetti sauce",
+              "chinese": "chicken broth"
+            },
+            {
+              "other": "pasta sauce",
+              "chinese": "chicken broth"
+            },
+            {
+              "other": "lasagna",
+              "chinese": "cheung fun"
+            },
+            {
+              "other": "lasagna noodles",
+              "chinese": "cheung fun"
+            },
+            {
+              "other": "tomato paste",
+              "chinese": "red bean paste"
+            },
+            {
+              "other": "macaron",
+              "chinese": "lo mein"
+            },
+            {
+              "other": "rotini",
+              "chinese": "lo mein"
+            },
+        
+            {
+              "other": "couscous",
+              "chinese": "jasmine rice"
+            },
+            {
+              "other": "masala",
+              "chinese": "chinese five spice"
+            },
+            {
+              "other": "ziti",
+              "chinese": "cheung fun"
+            }
           ]
+
 
     }
 }
