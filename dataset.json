@@ -1,0 +1,1758 @@
+{
+    "specifications":{
+        "vegetarian":[
+            "natural",
+            "salad",
+            "green",
+            "leafy",
+            "raw",
+            "mixed",
+            "organic",
+            "seasonal"
+
+        ],
+        "vegetables":[
+            "tomato",
+            "tomatoes",
+            "dried tomatoes",
+            "avocado",
+            "aubergine",
+            "beetroot",
+            "bell pepper",
+            "beans",
+            "beansprouts",
+            "cabbage",
+            "chinese cabbage",
+            "red cabbage",
+            "celeriac",
+            "courgette",
+            "cucumber",
+            "potato",
+            "potatoes",
+            "sweet potato",
+            "russet potato",
+            "glasswort",
+            "arrowroot",
+            "black eyed peas",
+            "broccoli",
+            "bok choy",
+            "carrots",
+            "radish",
+            "onions",
+            "onion",
+            "olive",
+            "olives",
+            "fennel",
+            "lettuce",
+            "green leaf lettuce",
+            "red leaf lettuce",
+            "spinach",
+            "kale",
+            "peas",
+            "snow peas",
+            "sorrel",
+            "cauliflower",
+            "ginger",
+            "pumpkin",
+            "collard green",
+            "beets",
+            "bell peppers",
+            "corn",
+            "golden corn",
+            "green beans",
+            "garlic",
+            "jalapeno pepper",
+            "jalapeno peppers",
+            "cucumbers",
+            "long beans",
+            "eggplant",
+            "okra",
+            " radish",
+            "radishes",
+            "shallot",
+            "shallots",
+            "zucchini",
+            "winged beans",
+            "soy sauce",
+            "teriyaki sauce",
+            "hot sauce",
+            "buffalo sauce",
+            "ketchup",
+            "mustard"
+
+        ],
+        "cookingmedium":[
+            "water",
+            "vegetable oil",
+            "olive oil",
+            "peanut oil",
+            "canola oil",
+            "rapeseed oil",
+            "coconut oil",
+            "oil"
+        ],
+        "meat":[
+            "steak",
+            "beef roast",
+            "ground beef",
+            "beef ribs",
+            "beef",
+            "porkchop",
+            "ground pork",
+            "pork",
+            "lamb rack",
+            "lamb",
+            "veal",
+            "turkey",
+            "venison"
+        ],
+        "seafood":[
+            "catfish",
+            "kingfish",
+            "salmon",
+            "pike",
+            "tuna",
+            "sardines",
+            "eel",
+            "bass",
+            "basa",
+            "crab",
+            "shrimp",
+            "lobster",
+            "clam",
+            "mussels",
+            "trout",
+            "tilapia",
+            "octopus",
+            "scallops",
+            "whitefish",
+            "perch",
+            "drum",
+            "cod",
+            "conch",
+            "fish",
+            "shells",
+            "prawns",
+            "jhinga"
+            
+        ],
+        "poultry":[
+            "chicken breast",
+            "chicken thigh",
+            "chicken liver",
+            "ground chicken",
+            "chicken",
+            "duck",
+            "dove",
+            "emu",
+            "goose",
+            "ostrich",
+            "pigeon",
+            "quail",
+            "turkey",
+            "hen",
+            "eggs",
+            "egg",
+            "cheese",
+            "parmesan cheese",
+            "mozzarella cheese",
+            "swiss cheese",
+            "american cheese",
+            "cheddar cheese"
+        ],
+        "dessert":[
+            "sweet",
+            "muffins",
+            "candied",
+            "caramelized",
+            "chocolate",
+            "cakes",
+            "sweets",
+            "coated",
+            "baked",
+            "rolls"
+        ],
+        "spices":[
+            "bay leaves",
+            "bay leaf",
+            "cardamom",
+            "anise seed",
+            "basil",
+            "salt",
+            "curry leaves",
+            "whole chilies",
+            "dried chilies",
+            "cinnamon",
+            "pepper",
+            "black pepper",
+            "chili powder",
+            "chilli powder",
+            "chives",
+            "cinnamon stick",
+            "cloves",
+            "ground cloves",
+            "whole cloves",
+            "cumin",
+            "garlic salt",
+            "curry powder",
+            "fine herbs",
+            "mixed herbs",
+            "salt",
+            "rock salt",
+            "garlic powder",
+            "lemon peel",
+            "mustard powder",
+            "onion salt",
+            "onion powder",
+            "oregano",
+            "mustard seed",
+            "chili flakes",
+            "pumpkin seed",
+            "turmeric",
+            "sesame seed",
+            "thyme",
+            "saffron",
+            "sage leaves",
+            "ground sage",
+            "ground rosemary",
+            "lemon pepper",
+            "brown sugar",
+            "sugar"
+        ],
+        "seasonings":[
+            "all purpose",
+            "low sodium",
+            "non dairy",
+            "sweetened",
+            "superfine",
+            "heavy",
+            "ground",
+            "carribean jerk seasoning",
+            "cerole seasoning",
+            "jamaican jerk seasoning",
+            "old bay seasoning",
+            "polutry seasoning"         
+        ],
+        "styles":[
+            "african",
+            "albanian",
+            "algerian",
+            "american",
+            "andorrian",
+            "argentinean",
+            "argentinian",
+            "armenian",
+            "australian",
+            "austrian",
+            "bangladesh",
+            "barbados",
+            "belarus",
+            "belgian",
+            "belize",
+            "bolivian",
+            "brazilian",
+            "british",
+            "bulgarian",
+            "cambodian",
+            "canadian",
+            "chad",
+            "chilean",
+            "chinese",
+            "colombian",
+            "costa rica",
+            "creole",
+            "croatian",
+            "cuban",
+            "dominican",
+            "egyptian",
+            "el salvadorian",
+            "english",
+            "estonian",
+            "ethiopian",
+            "finnish",
+            "florentine",
+            "french",
+            "georgian",
+            "german",
+            "greek",
+            "guatemalan",
+            "hungarian",
+            "indian",
+            "indonesian",
+            "iranian",
+            "irish",
+            "israeli",
+            "italian",
+            "japanese",
+            "kenyan",
+            "korean",
+            "liberian",
+            "libyan",
+            "lithuanian",
+            "malaysian",
+            "mediterranean",
+            "mexican",
+            "mongolian",
+            "moroccan",
+            "nigerian",
+            "norwegian",
+            "peruvian",
+            "phillippino",
+            "polish",
+            "portuguese",
+            "puerto rican",
+            "romanian",
+            "russian",
+            "samoan",
+            "serbian",
+            "sichuan",
+            "singapore",
+            "slovakian",
+            "somalian",
+            "south african",
+            "spanish",
+            "sudanese",
+            "swedish",
+            "swiss",
+            "syrian",
+            "szechuan",
+            "taiwanese",
+            "thai",
+            "tunisian",
+            "turkish",
+            "ukrainian",
+            "venezuelan",
+            "vietnamese"
+
+        ],
+        "actions" :[
+            "aerate",
+            "bake",
+            "barbecue",
+            "batter",
+            "beat",
+            "bind",
+            "blacken",
+            "blanch",
+            "blend",
+            "boil",
+            "braise",
+            "brew",
+            "bread",
+            "burn",
+            "brush",
+            "broil",
+            "can",
+            "caramelize",
+            "chill",
+            "chop",
+            "chunk",
+            "coddle",
+            "combine",
+            "churn",
+            "cured",
+            "cut",
+            "defrost",
+            "dice",
+            "dip",
+            "drizzle",
+            "dough",
+            "drain",
+            "ferment",
+            "dry",
+            "freeze",
+            "fold",
+            "filter",
+            "fillet",
+            "flavor",
+            "flip",
+            "frost",
+            "froth",
+            "fry",
+            "garnish",
+            "glaze",
+            "gel",
+            "grate",
+            "grind",
+            "grill",
+            "grease",
+            "hard boil",
+            "deep fry",
+            "shallow fry",
+            "ice",
+            "infuse",
+            "heat",
+            "jell",
+            "juice",
+            "knead",
+            "layer",
+            "marinate",
+            "mash",
+            "measure",
+            "microwave",
+            "melt",
+            "mold",
+            "oil",
+            "mix",
+            "over fry",
+            "pan fry",
+            "peel",
+            "pop",
+            "pour",
+            "precook",
+            "prepare",
+            "preserve",
+            "press",
+            "roll",
+            "cook",
+            "rub",
+            "saute",
+            "sauté",
+            "process",
+            "pulp",
+            "puree",
+            "scoop",
+            "scramble",
+            "reduce",
+            "refrigerate",
+            "rise",
+            "roast",
+            "raw",
+            "sliced",
+            "minced",
+            "separate",
+            "soak",
+            "simmer",
+            "slow cook",
+            "smoke",
+            "stir fry",
+            "steam",
+            "strain",
+            "temper",
+            "sweeten",
+            "thicken",
+            "thin",
+            "top",
+            "toast",
+            "toss",
+            "turn",
+            "trim",
+            "warm",
+            "whisk",
+            "wash",
+            "whip",
+            "unmold",
+            "pressure cook",
+            "preheat",
+            "shake",
+            "spread",
+            "sprinkle",
+            "stir",
+            "evaporate",
+            "evaporated"
+        ],
+        "measures":[
+            "bag",
+            "bags",
+            "unit",
+            "cube",
+            "can",
+            "dash",
+            "gram",
+            "inch",
+            "cups",
+            "tablespoons",
+            "teaspoons",
+            "kilogram",
+            "kilograms",
+            "inches",
+            "lb",
+            "lbs",
+            "packets",
+            "pieces",
+            "piece",
+            "packages",
+            "package",
+            "pinch",
+            "ounce",
+            "oz",
+            "slice",
+            "slices",
+            "strip",
+            "strips",
+            "pound",
+            "pounds",
+            "pinch",
+            "pinches",
+            "Tbsp",
+            "Tbsps",
+            "cup",
+            "fl oz",
+            "fluid oz",
+            "gal",
+            "gallons",
+            "gallon",
+            "gals",
+            "jars",
+            "bottle",
+            "bottles",
+            "liter",
+            "liters",
+            "pints",
+            "pint",
+            "qt",
+            "qts",
+            "tsp",
+            "tsps",
+            "to taste"
+                ],
+        "tools_vessels" :[
+            "bag",
+            "baking sheet",
+            "cutter",
+            "skillet",
+            "basket",
+            "basket skimmer",
+            "balloon whisk",
+            "bell whisk",
+            "basting brush",
+            "blender",
+            "beanpot",
+            "knife",
+            "bread knife",
+            "bowl",
+            "scraper",
+            "bottle opener",
+            "spatula",
+            "curler",
+            "cake server",
+            "shovel",
+            "can opener",
+            "thermometer",
+            "carving knife",
+            "chef knife",
+            "chef's knife",
+            "clay pot",
+            "cookie press",
+            "cookie cutter",
+            "corkscrew",
+            "cup",
+            "cutting board",
+            "dish",
+            "deep spoon",
+            "sieve",
+            "tableware",
+            "separator",
+            "storage container",
+            "frying pan",
+            "funnel",
+            "grater",
+            "chopper",
+            "ice cream scoop",
+            "knife",
+            "ladle",
+            "lemon squeezer",
+            "measuring cup",
+            "measuring jar",
+            "masher",
+            "milk forther",
+            "mincer",
+            "mixing bowl",
+            "oven",
+            "pan",
+            "fork",
+            "spoon",
+            "blender",
+            "brush",
+            "server",
+            "vent",
+            "slicer",
+            "pot holder",
+            "lifter",
+            "shaker",
+            "scissor",
+            "scale",
+            "scoop",
+            "saucepan",
+            "rolling pin",
+            "roast lifter",
+            "shredder",
+            "stove",
+            "teaspoon",
+            "tablespoon",
+            "tongs",
+            "turner",
+            "burner",
+            "whisk",
+            "peeler",
+            "wooden spoon",
+            "pizza cutter",
+            "oven glove"
+
+        ],
+        "preparations":[
+        "coarsely chopped",
+            "dry rosted",
+            "thinly sliced",
+            "roughly chopped",
+            "freeze dried",
+            "finely diced",
+            "finely chopped",
+            "peeled",
+            "battered",
+            "canned",
+            "beaten",
+            "boiled",
+            "braised",
+            "brewed",
+            "caked",
+            "blanched",
+            "blended",
+            "browned",
+            "chilled",
+            "chopped",
+            "charred",
+            "cored",
+            "cubed",
+            "creamed",
+            "crushed",
+            "cut",
+            "diced",
+            "drained",
+            "divided",
+            "dried",
+            "fermented",
+            "evaporated",
+            "minced",
+            "mashed",
+            "melted",
+            "grated",
+            "roasted",
+            "removed",
+            "reserved",
+            "rinsed",
+            "seasoned",
+            "rubbed",
+            "sliced",
+            "shredded",
+            "soaked",
+            "thawed",
+            "torn"
+       
+        ],
+        "nonvegToVeg": [
+            {
+              "nonveg": "beef",
+              "veg": "soybean"
+            },
+            {
+              "nonveg": "buffalo",
+              "veg": "seitan"
+            },
+            {
+              "nonveg": "salami",
+              "veg": "black bean"
+            },
+            {
+              "nonveg": "veal",
+              "veg": "soybean"
+            },
+            {
+              "nonveg": "caribou",
+              "veg": "soybean"
+            },
+            {
+              "nonveg": "goat",
+              "veg": "seitan"
+            },
+            {
+              "nonveg": "cornish hens",
+              "veg": "cottage cheese"
+            },
+            {
+              "nonveg": "kangaroo",
+              "veg": "cottage cheese"
+            },
+            {
+              "nonveg": "lamb",
+              "veg": "seitan"
+            },
+            {
+              "nonveg": "venison",
+              "veg": "soybean"
+            },
+            {
+              "nonveg": "duck",
+              "veg": "mushroom"
+            },
+            {
+              "nonveg": "chicken",
+              "veg": "paneer"
+            },
+            {
+              "nonveg": "turkey",
+              "veg": "eggplant"
+            },
+            {
+              "nonveg": "quail",
+              "veg": "jackfuit"
+            },
+            {
+              "nonveg": "pheasant",
+              "veg": "eggplant"
+            },
+            {
+              "nonveg": "game hens",
+              "veg": "cottage cheese"
+            },
+            {
+              "nonveg": "ham",
+              "veg": "mashed potato balls"
+            },
+            {
+              "nonveg": "pork",
+              "veg": "tofu"
+            },
+            {
+              "nonveg": "bacon",
+              "veg": "tempeh"
+            },
+            {
+              "nonveg": "sausage",
+              "veg": "seitan"
+            },
+            {
+              "nonveg": "andouille",
+              "veg": "soybean"
+            },
+            {
+              "nonveg": "emu",
+              "veg": "mashed potato balls"
+            },
+            {
+              "nonveg": "rabbit",
+              "veg": "tofu"
+            },
+            {
+              "nonveg": "steak",
+              "veg": "seitan"
+            },
+        
+            {
+              "nonveg": "tuna",
+              "veg": "jackfuit"
+            },
+            {
+              "nonveg": "sardine",
+              "veg": "chickpeas"
+            },
+            {
+              "nonveg": "mahi mahi",
+              "veg": "avacado"
+            },
+            {
+              "nonveg": "crab",
+              "veg": "jackfruit"
+            },
+            {
+              "nonveg": "salmon",
+              "veg": "carrots"
+            },
+            {
+              "nonveg": "catfish",
+              "veg": "eggplant"
+            },
+            {
+              "nonveg": "squid",
+              "veg": "mushroom"
+            },
+            {
+              "nonveg": "octopus",
+              "veg": "king mushroom"
+            },
+            {
+              "nonveg": "lobster",
+              "veg": "mushroom"
+            },
+            {
+              "nonveg": "sirloin",
+              "veg": "veg pattie"
+            },
+            {
+              "nonveg": "non-veg",
+              "veg": "veg"
+            },
+            {
+              "nonveg": "non vegetarian",
+              "veg": "vegetarian"
+            },
+            {
+              "nonveg": "liver pate",
+              "veg": "hummus"
+            },
+            {
+              "nonveg": "mutton",
+              "veg": "seitan"
+            }
+            
+          ],
+          "healthyToUnhealthy": [
+            {
+              "healthy": "almond butter",
+              "unhealthy": "peanut butter"
+            },
+            {
+              "healthy": "almond milk",
+              "unhealthy": "milk"
+            },
+            {
+              "healthy": "almonds",
+              "unhealthy": "croutons"
+            },
+            {
+              "healthy": "arrowroot powder",
+              "unhealthy": "corn starch"
+            },
+            {
+              "healthy": "bacon",
+              "unhealthy": "sausage"
+            },
+            {
+              "healthy": "bagels",
+              "unhealthy": "muffins"
+            },
+            {
+              "healthy": "beef stock",
+              "unhealthy": "red wine"
+            },
+            {
+              "healthy": "cauliflower",
+              "unhealthy": "sweet potatoes"
+            },
+            {
+              "healthy": "chia seeds",
+              "unhealthy": "bread crumbs"
+            },
+            {
+              "healthy": "chicken stock",
+              "unhealthy": "white wine"
+            },
+            {
+              "healthy": "cocoa nibs",
+              "unhealthy": "chocolate chips"
+            },
+            {
+              "healthy": "coconut cream",
+              "unhealthy": "heavy cream"
+            },
+            {
+              "healthy": "coconut flour",
+              "unhealthy": "flour"
+            },
+            {
+              "healthy": "olive oil",
+              "unhealthy": "vegetable oil"
+            },
+            {
+              "healthy": "coconut sugar",
+              "unhealthy": "brown sugar"
+            },
+            {
+              "healthy": "coconut sugar",
+              "unhealthy": "sugar"
+            },
+            {
+              "healthy": "corn tortilla",
+              "unhealthy": "tortilla"
+            },
+            {
+              "healthy": "croissant",
+              "unhealthy": "muffin"
+            },
+            {
+              "healthy": "egg whites",
+              "unhealthy": "eggs"
+            },
+            {
+              "healthy": "fruit-infused water",
+              "unhealthy": "fruit juice"
+            },
+            {
+              "healthy": "goat cheese",
+              "unhealthy": "low-fat cheese"
+            },
+            {
+              "healthy": "greek yogurt",
+              "unhealthy": "sour cream"
+            },
+            {
+              "healthy": "honey",
+              "unhealthy": "corn syrup"
+            },
+            {
+              "healthy": "hummus",
+              "unhealthy": "mayonnaise"
+            },
+            {
+              "healthy": "kale chips",
+              "unhealthy": "pretzels"
+            },
+            {
+              "healthy": "lettuce",
+              "unhealthy": "tortillas"
+            },
+            {
+              "healthy": "margarine",
+              "unhealthy": "butter"
+            },
+            {
+              "healthy": "mashed cauliflower",
+              "unhealthy": "mashed potatoes"
+            },
+            {
+              "healthy": "milk",
+              "unhealthy": "creamer"
+            },
+            {
+              "healthy": "nuts",
+              "unhealthy": "granola"
+            },
+            {
+              "healthy": "oatmeal",
+              "unhealthy": "cereal"
+            },
+            {
+              "healthy": "olive oil and vinegar",
+              "unhealthy": "ranch dressing"
+            },
+            {
+              "healthy": "palm shortening",
+              "unhealthy": "shortening"
+            },
+            {
+              "healthy": "peanut butter and nutella",
+              "unhealthy": "reese's"
+            },
+            {
+              "healthy": "peanut butter and nutella",
+              "unhealthy": "reeses"
+            },
+            {
+              "healthy": "popcorn",
+              "unhealthy": "potato chips"
+            },
+            {
+              "healthy": "quinoa",
+              "unhealthy": "white rice"
+            },
+            {
+              "healthy": "romaine lettuce",
+              "unhealthy": "iceberg lettuce"
+            },
+            {
+              "healthy": "smashed avocado",
+              "unhealthy": "jam"
+            },
+            {
+              "healthy": "sprouted toast",
+              "unhealthy": "bagel"
+            },
+            {
+              "healthy": "stevia",
+              "unhealthy": "sugar"
+            },
+            {
+              "healthy": "tea",
+              "unhealthy": "soda"
+            },
+            {
+              "healthy": "tortillas",
+              "unhealthy": "pizza dough"
+            },
+            {
+              "healthy": "unrefined powdered sugar",
+              "unhealthy": "powdered sugar"
+            },
+            {
+              "healthy": "whole grain pasta",
+              "unhealthy": "pasta"
+            },
+            {
+              "healthy": "whole grain spaghetti",
+              "unhealthy": "spaghetti"
+            },
+            {
+              "healthy": "whole wheat bread",
+              "unhealthy": "white bread"
+            },
+            {
+              "healthy": "wheat noodles",
+              "unhealthy": "noodles"
+            },
+            {
+              "healthy": "whole grain flour",
+              "unhealthy": "white flour"
+            },
+            {
+              "healthy": "plant-based bacon",
+              "unhealthy": "bacon"
+            },
+            {
+              "healthy": "avocado and dark chocolate frosting",
+              "unhealthy": "frosting"
+            },
+            {
+              "healthy": "grade A medium amber maple syrup",
+              "unhealthy": "maple syrup"
+            },
+            {
+              "healthy": "non-fat mozzarella",
+              "unhealthy": "mozzarella cheese"
+            },
+            {
+              "healthy": "soy parmesan",
+              "unhealthy": "parmesan cheese"
+            }
+          ],
+          "anyToIndian": [
+            {
+              "other": "almond",
+              "indian": "clarified"
+            },
+            {
+              "other": "garbanzo",
+              "indian": "kidney"
+            },
+            {
+              "other": "jalapeno",
+              "indian": "green bell"
+            },
+            {
+              "other": "kirschwasser",
+              "indian": "wine"
+            },
+            {
+              "other": "taco",
+              "indian": "wheat roti"
+            },
+            {
+              "other": "thyme",
+              "indian": "pudina (mint)"
+            },
+            {
+              "other": "herbs",
+              "indian": "leaves"
+            },
+            {
+              "other": "spaghetti",
+              "indian": "vermicelli"
+            },
+            {
+              "other": "lasagna noodles",
+              "indian": "vermicelli"
+            },
+            {
+              "other": "cornish hens",
+              "indian": "chicken"
+            },
+            {
+              "other": "romaine lettuce",
+              "indian": "cabbage"
+            },
+            {
+              "other": "salsa",
+              "indian": "tomato puree"
+            },
+            {
+              "other": "ranch",
+              "indian": "pudina chutney"
+            },
+            {
+              "other": "barbeque",
+              "indian": "maggi hot and sour"
+            },
+            {
+              "other": "noodles",
+              "indian": "vermicelli"
+            },
+            {
+              "other": "pasta",
+              "indian": "vermicelli"
+            },
+            {
+              "other": "focaccia",
+              "indian": ""
+            },
+            {
+              "other": "butternut squash",
+              "indian": "sweet pumpkin"
+            },
+            {
+              "other": "squash",
+              "indian": "pumpkin"
+            },
+            {
+              "other": "pesto",
+              "indian": "pudina chutney"
+            },
+            {
+              "other": "quinoa",
+              "indian": "broken wheat"
+            },
+            {
+              "other": "tortilla",
+              "indian": "wheat roti"
+            },
+            {
+              "other": "zucchini",
+              "indian": "cucumber"
+            },
+            {
+              "other": "lean ground beef",
+              "indian": "lamb"
+            },
+            {
+              "other": "ground beef",
+              "indian": "lamb"
+            },
+            {
+              "other": "beef",
+              "indian": "mutton"
+            },
+            {
+              "other": "pork",
+              "indian": "goat"
+            },
+            {
+              "other": "steak",
+              "indian": "goat"
+            },
+            {
+              "other": "sausage",
+              "indian": "gram flour sticks"
+            },
+            {
+              "other": "bacon",
+              "indian": "soy chaap"
+            },
+            {
+              "other": "lobster",
+              "indian": "button mushrooms"
+            },
+            {
+              "other": "turkey",
+              "indian": "chicken"
+            },
+            {
+              "other": "pheasant",
+              "indian": "chicken"
+            },
+            {
+              "other": "game chicken",
+              "indian": "chicken"
+            },
+            {
+              "other": "quail",
+              "indian": "chicken"
+            },
+            {
+              "other": "duck",
+              "indian": "chicken"
+            },
+            {
+              "other": "chicken broth",
+              "indian": "boiled chicken soup"
+            },
+            {
+              "other": "long grain white rice",
+              "indian": "basmati rice"
+            },
+            {
+              "other": "tilapia",
+              "indian": "rohu"
+            },
+            {
+              "other": "sardines",
+              "indian": "rohu"
+            },
+            {
+              "other": "mahi mahi",
+              "indian": "katla"
+            },
+            {
+              "other": "salmon",
+              "indian": "rawas"
+            },
+            {
+              "other": "mackarel",
+              "indian": "bangda"
+            },
+            {
+              "other": "seer fish",
+              "indian": "surmai"
+            },
+            {
+              "other": "milk fish",
+              "indian": "bangus"
+            },
+            {
+              "other": "squid",
+              "indian": "cuttlefish"
+            },
+            {
+              "other": "octupus",
+              "indian": "calamari"
+            },
+            {
+              "other": "avocado",
+              "indian": "potato"
+            },
+            {
+              "other": "sour cream",
+              "indian": "curd"
+            },
+            {
+              "other": "oregano",
+              "indian": "black pepper"
+            },
+            {
+              "other": "basil",
+              "indian": "cilantro"
+            },
+            {
+              "other": "avocado",
+              "indian": "potato"
+            },
+            {
+              "other": "hot dog",
+              "indian": "patty"
+            },
+            {
+              "other": "mayonnaise",
+              "indian": "pudina chutney"
+            },
+            {
+              "other": "mayo",
+              "indian": "pudina chutney"
+            },
+            {
+              "other": "chives",
+              "indian": "spring onions"
+            },
+            {
+              "other": "pizza crust",
+              "indian": "garlic naan"
+            },
+            {
+              "other": "parmesan cheese",
+              "indian": "chhena"
+            },
+            {
+              "other": "hummus",
+              "indian": "coconut chutney"
+            },
+            {
+              "other": "cheddar cheese",
+              "indian": "paneer"
+            },
+            {
+              "other": "feta cheese",
+              "indian": "paneer"
+            },
+            {
+              "other": "gorgonzola cheese",
+              "indian": "paneer"
+            },
+            {
+              "other": "mozzarella cheese",
+              "indian": "butter"
+            },
+            {
+              "other": "cottage cheese",
+              "indian": "paneer"
+            },
+            {
+              "other": "ricotta cheese",
+              "indian": "paneer"
+            },
+            {
+              "other": "mascarpone cheese",
+              "indian": "paneer"
+            },
+        
+            {
+              "other": "monterey",
+              "indian": ""
+            },
+            {
+              "other": "jack",
+              "indian": "butter"
+            },
+            {
+              "other": "provolone cheese",
+              "indian": "curd"
+            },
+            {
+              "other": "cheese",
+              "indian": "paneer"
+            },
+            {
+              "other": "thai chile peppers",
+              "indian": "green chilies"
+            },
+            {
+              "other": "peanut",
+              "indian": "sunflower"
+            },
+            {
+              "other": "ketchup",
+              "indian": "tomato puree"
+            },
+            {
+              "other": "olive",
+              "indian": "sunflower"
+            },
+            {
+              "other": "sesame",
+              "indian": "sunflower"
+            },
+            {
+              "other": "margarine",
+              "indian": "butter"
+            },
+            {
+              "other": "liver pate",
+              "indian": "diced chicken"
+            },
+            {
+              "other": "celery",
+              "indian": "vegetable"
+            },
+            {
+              "other": "balsamic vinegar",
+              "indian": "lemon juice"
+            },
+            {
+              "other": "vinegar",
+              "indian": "lemon juice"
+            },
+            {
+              "other": "worcestershire",
+              "indian": "lemon juice"
+            },
+            {
+              "other": "italian seasoning",
+              "indian": "garam masala"
+            },
+            {
+              "other": "heinz",
+              "indian": ""
+            },
+            {
+              "other": "cayenne",
+              "indian": "red chili"
+            },
+            {
+              "other": "dill weed",
+              "indian": "cilantro"
+            },
+            {
+              "other": "parsley",
+              "indian": "cilantro"
+            },
+            {
+              "other": "pita",
+              "indian": "indian roti"
+            },
+            {
+              "other": "kosher",
+              "indian": ""
+            },
+            {
+              "other": "hoisin",
+              "indian": "hot chilli"
+            },
+            {
+              "other": "sirloin",
+              "indian": "lamb"
+            },
+            {
+              "other": "buffalo",
+              "indian": "chicken"
+            },
+             {
+              "other": "spices",
+              "indian": "indian spicies"
+            },
+            {
+              "other": "jalapeño",
+              "indian":"green bell peppers"
+            }
+             
+          ],
+        "anyToChinese": [
+            {
+              "other": "filling",
+              "chinese": "red bean paste"
+            },
+            {
+              "other": "parsley",
+              "indian": "cilantro"
+            },
+            {
+              "other": "iceberg lettuce",
+              "chinese": "bok choy"
+            },
+            {
+              "other": "cabbage",
+              "chinese": "snow cabbage"
+            },
+            {
+              "other": "broccoli",
+              "chinese": "chinese broccoli"
+            },
+            {
+              "other": "radish",
+              "chinese": "white radish"
+            },
+            {
+              "other": "turnip",
+              "chinese": "white radish"
+            },
+            {
+              "other": "tortilla",
+              "chinese": "spring roll wrapper"
+            },
+            {
+              "other": "seitan",
+              "chinese": "tofu"
+            },
+            {
+              "other": "ground beef",
+              "chinese": "ground pork"
+            },
+            {
+              "other": "ground turkey",
+              "chinese": "ground pork"
+            },
+            {
+              "other": "olive oil",
+              "chinese": "peanut oil"
+            },
+            {
+              "other": "burger",
+              "chinese": "chinese burger"
+            },
+            {
+              "other": "canola oil",
+              "chinese": "peanut oil"
+            },
+            {
+              "other": "coconut oil",
+              "chinese": "peanut oil"
+            },
+            {
+              "other": "corn oil",
+              "chinese": "peanut oil"
+            },
+            {
+              "other": "sunflower oil",
+              "chinese": "peanut oil"
+            },
+            {
+              "other": "safflower oil",
+              "chinese": "peanut oil"
+            },
+            {
+              "other": "vegetable oil",
+              "chinese": "peanut oil"
+            },
+            {
+              "other": "spaghetti",
+              "chinese": "lo mein"
+            },
+            {
+              "other": "vinegar",
+              "chinese": "black vinegar"
+            },
+            {
+              "other": "red pepper flakes",
+              "chinese": "dried chili pepper"
+            },
+            {
+              "other": "italian parsley",
+              "chinese": "cilantro"
+            },
+            {
+              "other": "parmigiano-reggiano cheese",
+              "chinese": "fermented bean curd"
+            },
+            {
+              "other": "parmesan",
+              "chinese": "fermented bean curd"
+            },
+            {
+              "other": "parmesan cheese",
+              "chinese": "fermented bean curd"
+            },
+            {
+              "other": "mozzarella",
+              "chinese": "sprouts"
+            },
+            {
+              "other": "mozzarella cheese",
+              "chinese": "sprouts"
+            },
+            {
+              "other": "penne",
+              "chinese": "lo mein"
+            },
+            {
+              "other": "mushroom",
+              "chinese": "shiitake mushroom"
+            },
+            {
+              "other": "salad",
+              "chinese": "malatang"
+            },
+            {
+              "other": "quesadilla",
+              "chinese": "xian bing"
+            },
+            {
+              "other": "french pancake",
+              "chinese": "jian bing"
+            },
+            {
+              "other": "meat sauce",
+              "chinese": "da lu mian"
+            },
+            {
+              "other": "churro",
+              "chinese": "you tiao"
+            },
+            {
+              "other": "pizza",
+              "chinese": "scallion pancake"
+            },
+            {
+              "other": "wine",
+              "chinese": "shaoxing wine"
+            },
+            {
+              "other": "chicken nuggets",
+              "chinese": "chicken balls"
+            },
+            {
+              "other": "jerkey",
+              "chinese": "bak kwa"
+            },
+            {
+              "other": "pork",
+              "chinese": "mapo doufu"
+            },
+            {
+              "other": "meat",
+              "chinese": "bakkwa"
+            },
+            {
+              "other": "lamb",
+              "chinese": "lamb broth"
+            },
+            {
+              "other": "pasta",
+              "chinese": "lo mein"
+            },
+            {
+              "other": "sauce",
+              "chinese": "hoisin sauce"
+            },
+            {
+              "other": "shrimp",
+              "chinese": "cha jang mein"
+            },
+            {
+              "other": "white rice",
+              "chinese": "jasmine rice"
+            },
+            {
+              "other": "brown rice",
+              "chinese": "jasmine rice"
+            },
+            {
+              "other": "rice",
+              "chinese": "jasmine rice"
+            },
+            {
+              "other": "jasmin jasmin rice",
+              "chinese": "jasmine rice"
+            },
+            {
+              "other": "corn",
+              "chinese": "bok choy"
+            },
+            {
+              "other": "tea",
+              "chinese": "chinese tea"
+            },
+            {
+              "other": "sausage",
+              "chinese": "lap ceung"
+            },
+            {
+              "other": "salsa",
+              "chinese": "mala sauce"
+            },
+            {
+              "other": "maple sauce",
+              "chinese": "mala sauce"
+            },
+            {
+              "other": "maple syrup",
+              "chinese": "chinese mala syrup"
+            },
+            {
+              "other": "oregano",
+              "chinese": "cilantro"
+            },
+            {
+              "other": "marinara",
+              "chinese": "chicken broth"
+            },
+            {
+              "other": "marinara sauce",
+              "chinese": "chicken broth"
+            },
+            {
+              "other": "tomato sauce",
+              "chinese": "chicken broth"
+            },
+            {
+              "other": "spaghetti sauce",
+              "chinese": "chicken broth"
+            },
+            {
+              "other": "pasta sauce",
+              "chinese": "chicken broth"
+            },
+            {
+              "other": "lasagna",
+              "chinese": "cheung fun"
+            },
+            {
+              "other": "lasagna noodles",
+              "chinese": "cheung fun"
+            },
+            {
+              "other": "tomato paste",
+              "chinese": "red bean paste"
+            },
+            {
+              "other": "macaron",
+              "chinese": "lo mein"
+            },
+            {
+              "other": "rotini",
+              "chinese": "lo mein"
+            },
+        
+            {
+              "other": "couscous",
+              "chinese": "jasmine rice"
+            },
+            {
+              "other": "masala",
+              "chinese": "chinese five spice"
+            },
+            {
+              "other": "ziti",
+              "chinese": "cheung fun"
+            }
+          ],
+        "anyToglutenfree": [
+           {
+              "other": "taco",
+              "gluten-free": "gluten-free taco"
+            },
+            {
+              "other": "spaghetti",
+              "gluten-free": "gluten free spaghetti"
+            },
+            {
+              "other": "noodles",
+              "gluten-free": "gluten-free noodles"
+            },
+            {
+              "other": "pasta",
+              "gluten-free": "gluten-free pasta"
+            },
+            {
+              "other": "quinoa",
+              "gluten-free": "gluten-free quinoa"
+            },
+            {
+              "other": "tortilla",
+              "gluten-free": "gluten-free tortilla"
+            },
+             {
+              "other": "wheat bread",
+              "gluten-free": "gluten-free wheat bread"
+            },
+            {
+              "other": "bread",
+              "gluten-free": "gluten-free bread"
+            },
+            {
+              "other": "wraps",
+              "gluten-free": "gluten-free wraps"
+            },
+            {
+              "other": "bagel",
+              "gluten-free": "gluten-free bagel"
+            },
+            {
+              "other": "flatbread",
+              "gluten-free": "gluten-free flatbread"
+            },
+            {
+              "other": "dough",
+              "gluten-free": "gluten-free dough"
+            },
+            {
+              "other": "soy sauce",
+              "gluten-free": ""
+            },
+            {
+              "other": "barbeque sauce",
+              "gluten-free": ""
+            },
+            {
+              "other": "salad dressing",
+              "gluten-free": "gluten free salad dressing"
+            },
+            {
+              "other": "marinade",
+              "gluten-free": "gluten-free marinade"
+            },
+            {
+              "other": "cream sauce",
+              "gluten-free": ""
+            },
+            {
+              "other": "flour",
+              "gluten-free": "gluten-free flour"
+            },
+            {
+              "other": "lady finger",
+              "gluten-free": "gluten-free lady finger"
+            },
+            {
+              "other": "cheese",
+              "gluten-free": "gluten-free cheese"
+            }
+            
+          ]
+
+
+    }
+}
