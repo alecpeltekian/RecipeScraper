@@ -1568,6 +1568,10 @@
               "chinese": "jasmine rice"
             },
             {
+              "other": "jasmin jasmin rice",
+              "chinese": "jasmine rice"
+            },
+            {
               "other": "corn",
               "chinese": "bok choy"
             },
@@ -1657,10 +1661,6 @@
             {
               "other": "spaghetti",
               "gluten-free": "gluten free spaghetti"
-            },
-            {
-              "other": "lasagna noodles",
-              "gluten-free": "gluten-free lasagna noodles"
             },
             {
               "other": "noodles",
