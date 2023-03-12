@@ -1648,6 +1648,81 @@
               "other": "ziti",
               "chinese": "cheung fun"
             }
+          ],
+        "anyToglutenfree": [
+           {
+              "other": "taco",
+              "gluten-free": "gluten-free taco"
+            },
+            {
+              "other": "spaghetti",
+              "gluten-free": "gluten free spaghetti"
+            },
+            {
+              "other": "lasagna noodles",
+              "gluten-free": "gluten-free lasagna noodles"
+            },
+            {
+              "other": "noodles",
+              "gluten-free": "gluten-free noodles"
+            },
+            {
+              "other": "pasta",
+              "gluten-free": "gluten-free pasta"
+            },
+            {
+              "other": "quinoa",
+              "gluten-free": "gluten-free quinoa"
+            },
+            {
+              "other": "tortilla",
+              "gluten-free": "gluten-free tortilla"
+            },
+             {
+              "other": "wheat bread",
+              "gluten-free": "gluten-free wheat bread"
+            },
+            {
+              "other": "bread",
+              "gluten-free": "gluten-free bread"
+            },
+            {
+              "other": "wraps",
+              "gluten-free": "gluten-free wraps"
+            },
+            {
+              "other": "bagel",
+              "gluten-free": "gluten-free bagel"
+            },
+            {
+              "other": "flatbread",
+              "gluten-free": "gluten-free flatbread"
+            },
+            {
+              "other": "dough",
+              "gluten-free": "gluten-free dough"
+            },
+            {
+              "other": "soy sauce",
+              "gluten-free": ""
+            },
+            {
+              "other": "barbeque sauce",
+              "gluten-free": ""
+            },
+            {
+              "other": "salad dressing",
+              "gluten-free": "gluten free salad dressing"
+            },
+            {
+              "other": "marinade",
+              "gluten-free": "gluten-free marinade"
+            },
+            {
+              "other": "cream sauce",
+              "gluten-free": ""
+            }
+            
           ]
 
 
