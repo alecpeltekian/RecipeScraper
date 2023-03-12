@@ -1721,7 +1721,19 @@
             {
               "other": "cream sauce",
               "gluten-free": ""
-            }
+            },
+            {
+              "other": "flour",
+              "gluten-free": "gluten-free flour"
+            },
+            {
+              "other": "lady finger",
+              "gluten-free": "gluten-free lady finger"
+            },
+            {
+              "other": "cheese",
+              "gluten-free": "gluten-free cheese"
+            },
             
           ]
 
