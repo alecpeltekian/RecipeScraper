@@ -1375,7 +1375,7 @@
              {
               "other": "spices",
               "indian": "indian spicies"
-            },
+            }
              
           ],
         "anyToChinese": [
@@ -1436,7 +1436,7 @@
               "chinese": "peanut oil"
             },
             {
-              "other": "coconut oil"",
+              "other": "coconut oil",
               "chinese": "peanut oil"
             },
             {

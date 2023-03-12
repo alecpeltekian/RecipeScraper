@@ -9,6 +9,8 @@ data = json.load(f)
 health = data["specifications"]["healthyToUnhealthy"]
 veggie = data["specifications"]["nonvegToVeg"]
 indianFood = data["specifications"]["anyToIndian"]
+chineseFood = data["specifications"]["anyToChinese"]
+Gluten = data["specifications"]["anyToglutenfree"]
 
 
 
@@ -102,6 +104,35 @@ def anyToIndian(ingredients, instructions):
       
       return ingredients, instructions
 
+def anyToChinese(ingredients, instructions):
+      shagun = []
+      alec = []
+      for i in range(len(ingredients)):
+            for j in chineseFood:
+                  if j['other'] in ingredients[i]:
+                        ingredients[i] = ingredients[i].replace(j['other'], j['chinese'])
+                        shagun.append(j['other'])
+                        alec.append(j['chinese'])
+      for k in range(len(shagun)):
+            instructions = instructions.replace(shagun[k], alec[k])
+            
+      
+      return ingredients, instructions
+
+def anyToGlutenFree(ingredients, instructions):
+      shagun = []
+      alec = []
+      for i in range(len(ingredients)):
+            for j in Gluten:
+                  if j['other'] in ingredients[i]:
+                        ingredients[i] = ingredients[i].replace(j['other'], j['gluten-free'])
+                        shagun.append(j['other'])
+                        alec.append(j['gluten-free'])
+      for k in range(len(shagun)):
+            instructions = instructions.replace(shagun[k], alec[k])
+            
+      
+      return ingredients, instructions
 def singleSwap(ingredients, instructions):
       question= input("What ingredient do you want to replace, in the form: 'Replace X with Y':")
       N=2
@@ -166,9 +197,11 @@ if trans == '5':
       print("3. Vegeterian to NonVegeterian")
       print("4. NonVegeterian to Vegeterian")
       print("5. To Indian Style!")
-      print("6. Replace Single Ingredient")
-      print("7. Scale up or down")
-      print("8. Repeat")
+      print("6. To Chinese Style!")
+      print("7. To Gluten free")
+      print("8. Replace Single Ingredient")
+      print("9. Scale up or down")
+      print("10. Repeat")
       choice = input("Enter your choice: ")
       if choice == "1":
             ingredients, instructions = healthyToUnhealthy(ingredients, instructions)
@@ -181,10 +214,14 @@ if trans == '5':
       elif choice == "5":
             ingredients, instructions = anyToIndian(ingredients, instructions)
       elif choice == "6":
-            ingredients, instructions = singleSwap(ingredients, instructions)
+            ingredients, instructions = anyToChinese(ingredients, instructions)
       elif choice == "7":
-            ingredients, instructions = scaleIngredients(ingredients, instructions)
+            ingredients, instructions = anyToGlutenFree(ingredients, instructions)
       elif choice == "8":
+            ingredients, instructions = singleSwap(ingredients, instructions)
+      elif choice == "9":
+            ingredients, instructions = scaleIngredients(ingredients, instructions)
+      elif choice == "10":
             pass
 
         
