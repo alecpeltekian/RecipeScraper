@@ -789,7 +789,12 @@
             {
               "nonveg": "liver pate",
               "veg": "hummus"
+            },
+            {
+              "nonveg": "mutton",
+              "veg": "seitan"
             }
+            
           ],
           "healthyToUnhealthy": [
             {
@@ -1112,7 +1117,7 @@
             },
             {
               "other": "beef",
-              "indian": "lamb"
+              "indian": "mutton"
             },
             {
               "other": "pork",
@@ -1200,7 +1205,7 @@
             },
             {
               "other": "oregano",
-              "indian": "garam masala"
+              "indian": "black pepper"
             },
             {
               "other": "basil",
@@ -1366,7 +1371,12 @@
             {
               "other": "buffalo",
               "indian": "chicken"
-            }
+            },
+             {
+              "other": "spices",
+              "indian": "indian spicies"
+            },
+             
           ],
         "anyToChinese": [
             {
